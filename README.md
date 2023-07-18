@@ -11,7 +11,8 @@ Deployed on GitHub Pages at: https://tranchell-eric.github.io/react-portfolio/
 ## Usage
 
 Screenshot of the application:
-![Alt text](image-1.png)
+![Alt text](image.png)
+
 
 
 ## Credits
