@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Navigation = ({ currentPage, handlePageChange }) => {
   return (
     <nav>

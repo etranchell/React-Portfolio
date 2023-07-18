@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 import Project from './components/Project';
+import './App.css';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('About');

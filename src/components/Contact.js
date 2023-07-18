@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const Contact = () => {
   const [formState, setFormState] = useState({
     name: '',
@@ -93,7 +94,7 @@ const Contact = () => {
             name='email'
             value={email}
             onChange={handleChange}
-            reaquired
+            required
           />
           {emailError && <p className='error-text'>{emailError}</p>}
         </div>
