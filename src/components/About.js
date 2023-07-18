@@ -5,7 +5,8 @@ const About = () => {
     <section id='About'>
       <h2>About Me</h2>
       <div>
-        <img src='professional pic' alt='Eric Tranchell' />
+        {/* <img src='professional pic' */}
+        Eric Tranchell
         <p>Hi im Eric</p>
       </div>
     </section>
