@@ -15,9 +15,9 @@ const Navigation = ({ currentPage, handlePageChange }) => {
         </li>
         <li>
           <a
-            href='#portfolio'
-            onClick={() => handlePageChange('Portfolio')}
-            className={currentPage === 'Portfolio' ? 'active' : ''}
+            href='#project'
+            onClick={() => handlePageChange('Project')}
+            className={currentPage === 'Project' ? 'active' : ''}
           >
             Portfolio
           </a>

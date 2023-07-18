@@ -1,7 +1,6 @@
 import React from 'react';
 
-
-const Portfolio = () => {
+const Project = () => {
   const projects = [
     {
       id: 1,
@@ -39,18 +38,23 @@ const Portfolio = () => {
 
   return (
     <div>
-      <h1>Portfolio</h1>
+      <h2>Projects</h2>
       {projects.map((project) => (
-        <Project
-          key={project.id}
-          title={project.title}
-          image={project.image}
-          githubLink={project.githubLink}
-          deployedLink={project.deployedLink}
-        />
+        <div key={project.id}>
+          <h3>{project.title}</h3>
+          <img src={project.image} alt={project.title} />
+          <div>
+            <a href={project.deployedLink} target='_blank' rel='noreferrer'>
+              Deployed Link
+            </a>
+            <a href={project.githubLink} target='_blank' rel='noreferrer'>
+              GitHub Link
+            </a>
+          </div>
+        </div>
       ))}
     </div>
   );
 };
 
-export default Portfolio;
+export default Project;
