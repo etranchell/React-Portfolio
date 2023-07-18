@@ -6,7 +6,7 @@ Eric Tranchell's Professional Portfolio
 
 ## Installation
 
-Deployed on GitHub Pages at: https://tranchell-eric.github.io/react-portfolio/
+Deployed on GitHub Pages at: https://etranchell.github.io/react-portfolio/
 
 ## Usage
 
